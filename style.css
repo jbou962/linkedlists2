@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+  background-color: #CFD8DC;
+}
+
+h1 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 50px;
+  padding-top: 50px;
+  color: #fff;
+
+}
+
+a {
+  padding-left: 15px;
+}
+
+h2 {
+  text-align: left;
+  padding-left: 15px;
+}
+.input-side {
+  background-color: #455A64;
+  text-align: center;
+  height: 100vh;
+  width: 48%;
+}
+
+input {
+  margin: 30px;
+  width: 80%;
+  padding: 3px;
+  font-size: 24px;
+}
+
+.enter-btn:hover {
+  background-color: #FFD773;
+}
+
+.enter-btn {
+  background-color: #FFC107;
+  border-style: none;
+  width: 80%;
+  margin-top: 40px;
+  padding: 3px;
+  font-size: 24px;
+  color: #fff;
+}
+
+/*div {
+  display: flex;
+}*/
+
+hr {
+  margin: 25px 10px 0px 10px;
+
+}
+
+#cards {
+  border: solid 2px;
+  border-color: #455A64;
+  background-color: #fff;
+  margin: 5px 26px 5px 5px;
+  display: inline;
+  height: 150px;
+  width: 50%;
+  float: right;
+  bottom: 700px;
+  position: relative;
+  left: 20px;
+}
+.read {
+  border: none;
+  background-color: #fff;
+}
+.read on hover: {
+  background-color: #f2f4f4
+}
+
+.delete {
+  float: right;
+  border: none;
+  background-color: #fff;
+}
+
+ @media  (max-width: 700px) {
+
+     .input-side {
+       width: 100%;
+     }
+     #cards {
+        /*display: inline-block;*/
+        width: 95%;
+        border: solid 2px;
+        border-color: #455A64;
+        background-color: #fff;
+        margin: 5px 26px 5px 5px;
+        display: inline;
+        height: 150px;
+        bottom: 0px;
+     }
+     div {
+       display: block;
+     }
+
+}
