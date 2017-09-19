@@ -61,7 +61,7 @@ hr {
 
 }
 
-#cards {
+.cards {
   border: solid 2px;
   border-color: #455A64;
   background-color: #fff;
@@ -93,7 +93,7 @@ hr {
      .input-side {
        width: 100%;
      }
-     #cards {
+     .cards {
         /*display: inline-block;*/
         width: 95%;
         border: solid 2px;
